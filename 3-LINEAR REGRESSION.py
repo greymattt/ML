@@ -1,3 +1,11 @@
+# ALGORITHM
+# 1. Import the required libraries
+# 2. Using the numpy get the values to do the prediction
+# 3. Initialize the LinearRegression model from the sklearn library
+# 4. Predict the slope and intercept using the model
+# 5. predict the 'Y' value using the model
+# 6. Plot the inital values of Y and predicted 'Y' using matplotlib
+
 import numpy as np
 import matplotlib.pyploy as plt
 from sklearn.linear_model import LinearRegression

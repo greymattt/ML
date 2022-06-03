@@ -18,7 +18,7 @@ from sklearn import svm
 
 X = np.array([2, 5, 1, 6, 1, 9, 7, 8.7, 2.9, 5.5, 7.7, 6.9]) 
 y = np.array([1, 8, 1, 7, 0.6, 11, 10, 9.4, 4, 3, 7.9, 6.1]) 
-training_X = np.vstack((X, y))
+training_X = np.vstack((X, y)).T
 training_y = [0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1]
 
 clf = svm.SVC(kernel='linear', C=1.0) 
