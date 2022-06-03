@@ -1,15 +1,15 @@
-ALGORITHM:
-Step 1 : Start
-Step 2 : Import the required packages, from sklearn import svm.
-Step 3 : Import the dataset.
-Step 4 : Shape the data for training the model.
-Step 5 : Define and train the model.
-Step 6 : Get the weight value for linear equation from the trained SVM model
-Step 7 : Get the y- offset value for the linear equation and make the x-axis space for the data points.
-Step 8 : Plot the decision boundary by getting the y- value 
-Step 9 : Plot the decision boundary
-Step 10: Display the output
-Step 11: Stop
+# ALGORITHM:
+# Step 1 : Start
+# Step 2 : Import the required packages, from sklearn import svm.
+# Step 3 : Import the dataset.
+# Step 4 : Shape the data for training the model.
+# Step 5 : Define and train the model.
+# Step 6 : Get the weight value for linear equation from the trained SVM model
+# Step 7 : Get the y- offset value for the linear equation and make the x-axis space for the data points.
+# Step 8 : Plot the decision boundary by getting the y- value 
+# Step 9 : Plot the decision boundary
+# Step 10: Display the output
+# Step 11: Stop
 
 
 import matplotlib.pyplot as plt

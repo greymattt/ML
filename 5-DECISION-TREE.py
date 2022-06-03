@@ -1,12 +1,12 @@
-Procedure:
-Step 1: Importing necessary python libraries.
-Step 2: Loading the dataset and pre-processing. 
-Step 3: Splitting the dataset for x and y values. 
-Step 4: Splitting the dataset for training and testing.
-Step 5: Creating the model using DecsisionTreeClassifier with CART algorithm. 
-Step 6: Fitting the model using training data
-Step 7: Predicting the values and testing.
-Step 8: Visualizing the decision tree.
+# Procedure:
+# Step 1: Importing necessary python libraries.
+# Step 2: Loading the dataset and pre-processing. 
+# Step 3: Splitting the dataset for x and y values. 
+# Step 4: Splitting the dataset for training and testing.
+# Step 5: Creating the model using DecsisionTreeClassifier with CART algorithm. 
+# Step 6: Fitting the model using training data
+# Step 7: Predicting the values and testing.
+# Step 8: Visualizing the decision tree.
 
 import pandas as pd
 import graphviz

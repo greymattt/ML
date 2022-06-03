@@ -1,14 +1,12 @@
-Procedure:
-1. Load the iris dataset from datasets package. To keep things simple, take only first two columns (i.e sepal length and sepal width respectively).
-2. Now plot the dataset.
-3. Fit the data as a mixture of 3 Gaussians.
-4. Then do the clustering, i.e assign a label to each observation. Also find the number of
-iterations needed for the log-likelihood function to converge and the converged log-
-likelihood value.
-5. Print the converged log-likelihood value and no. of iterations needed for the model to
-converge.
+# Procedure:
+# 1. Load the iris dataset from datasets package. To keep things simple, take only first two columns (i.e sepal length and sepal width respectively).
+# 2. Now plot the dataset.
+# 3. Fit the data as a mixture of 3 Gaussians.
+# 4. Then do the clustering, i.e assign a label to each observation. Also find the number of
+# iterations needed for the log-likelihood function to converge and the converged log-likelihood value.
+# 5. Print the converged log-likelihood value and no. of iterations needed for the model to converge.
 
-CODE:
+# CODE:
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn import datasets

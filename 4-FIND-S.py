@@ -1,12 +1,12 @@
-Algorithm
-Find-S Algorithm
-Step 1: Start
-Step 2: Import the required modules such as pandas.
-Step 3: Create data set and save it as pandas DataFrame.
-Step 4: Initialize h with most specific hypothesis.
-Step 5: Implement Find-S algorithm to find the most general hypothesis 
-Step 6: Display the maximally hypothesis
-Step 7: Stop
+# Algorithm
+# Find-S Algorithm
+# Step 1: Start
+# Step 2: Import the required modules such as pandas.
+# Step 3: Create data set and save it as pandas DataFrame.
+# Step 4: Initialize h with most specific hypothesis.
+# Step 5: Implement Find-S algorithm to find the most general hypothesis 
+# Step 6: Display the maximally hypothesis
+# Step 7: Stop
 
 import pandas as pd
 
