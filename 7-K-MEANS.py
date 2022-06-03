@@ -25,11 +25,14 @@ X=pd.DataFrame(dataset.data)
 X.columns=['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width' ]
 y=pd.DataFrame(dataset.target)
 y.columns=['Targets']
+
 plt.figure(figsize=(14,7)) 
 colormap=np.array(['red','lime','black'])
-plt.subplot(1,3,1) 
-plt.scatter(X.Petal_Length,X.Petal_Width,c=colormap[y.Targets],s=40) 
+
+plt.subplot(1,3,1)
+plt.scatter(X.Petal_Length,X.Petal_Width,c=colormap[y.Targets],s=40)
 plt.title('Real')
+
 plt.subplot(1,3,2)
 model=KMeans(n_clusters=3)
 model.fit(X) 

@@ -24,12 +24,10 @@ for i in range(len(arr[0])-1):
   hypothesis[i] = arr[0][i]
 
  for i in range(1, len(arr)):
-  if(arr[i][-1][:-1] == "No"):
-    pass
-  else:
-    for j in range(0, len(arr[i])-1):
-      if hypothesis[j] != arr[i][j]:
-        hypothesis[j] = "?"
-  print("Hypothesis:", hypothesis)
+  if(arr[i][-1][:-1] != "No"):
+    else:
+      for j in range(0, len(arr[i])-1):
+        if hypothesis[j] != arr[i][j]:
+          hypothesis[j] = "?"
 
   print("The maximally specific hypothesis is:", hypothesis)
